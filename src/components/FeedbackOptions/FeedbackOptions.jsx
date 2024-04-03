@@ -1,10 +1,9 @@
 import React, { Component } from 'react';
-import ReactDOM from 'react-dom';
-import { Container, Button } from './FeedbackOptions.styled';
+import { Button } from './FeedbackOptions.styled';
+
 export class FeedbackOptions extends Component {
   render() {
     const { options, onLeaveFeedback } = this.props;
-    console.log(options);
 
     return options.map(btName => (
       <Button

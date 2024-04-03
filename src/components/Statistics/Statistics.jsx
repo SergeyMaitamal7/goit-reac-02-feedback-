@@ -4,6 +4,7 @@ import { Text } from './Statistics.style';
 export class Statistics extends Component {
   render() {
     const { good, neutral, bad, positivePercentage, total } = this.props;
+   
     return (
       <>
         <Text>Good: {good}</Text>
